@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  api: {
+    url: '/assets' /** aqui debe ir la direccion del web services,
+     para prueba local guardamos json en assets, la direccion de este archivo es para
+      el ambiente  de desarrollo*/
+  }
 };
 
 /*
